@@ -1,23 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -30,116 +21,92 @@
     </header>
     <!-- Main Section -->
     <div class="container-fluid">
-      <div class="row">
-        <div class="hour col-2">
-          9AM
-        </div>
+      <div class="row" id="hour9">
+        <div class="hour col-2">9AM</div>
         <div class="description col-8">
-          <textarea class="task" id="nine"></textarea>
+          <textarea class="task" id="hr9"></textarea>
         </div>
         <div class="col-2">
-          <button class="saveBtn" type="submit" id="9am">Save</button>
+          <button class="saveBtn" type="submit" name="hr9">Save</button>
         </div>
       </div>
-      <div class="row">
-        <div class="hour col-2">
-          10AM
-        </div>
+      <div class="row" id="hour10">
+        <div class="hour col-2">10AM</div>
         <div class="description col-8">
-          <textarea class="task" id="ten"></textarea>
+          <textarea class="task" id="hr10"></textarea>
         </div>
         <div class="col-2">
-          <button class="saveBtn" type="submit" id="10am">Save</button>
+          <button class="saveBtn" type="submit" name="hr10">Save</button>
         </div>
       </div>
-      <div class="row">
-        <div class="hour col-2">
-          11AM
-        </div>
+      <div class="row" id="hour11">
+        <div class="hour col-2">11AM</div>
         <div class="description col-8">
-          <textarea class="task" id="eleven"></textarea>
+          <textarea class="task" id="hr11"></textarea>
         </div>
         <div class="col-2">
-          <button class="saveBtn" type="submit" id="11am">Save</button>
+          <button class="saveBtn" type="submit" name="hr11">Save</button>
         </div>
       </div>
-      <div class="row">
-        <div class="hour col-2">
-          12PM
-        </div>
+      <div class="row" id="hour12">
+        <div class="hour col-2">12PM</div>
         <div class="description col-8">
-          <textarea class="task" id="noon"></textarea>
+          <textarea class="task" id="hr12"></textarea>
         </div>
         <div class="col-2">
-          <button class="saveBtn" type="submit" id="12pm">Save</button>
+          <button class="saveBtn" type="submit" name="hr12">Save</button>
         </div>
       </div>
-      <div class="row">
-        <div class="hour col-2">
-          1PM
-        </div>
+      <div class="row" id="hour13">
+        <div class="hour col-2">1PM</div>
         <div class="description col-8">
-          <textarea class="task" id="one"></textarea>
+          <textarea class="task" id="hr13"></textarea>
         </div>
         <div class="col-2">
-          <button class="saveBtn" type="submit" id="1pm">Save</button>
+          <button class="saveBtn" type="submit" name="hr13">Save</button>
         </div>
       </div>
-      <div class="row">
-        <div class="hour col-2">
-          2PM
-        </div>
+      <div class="row" id="hour14">
+        <div class="hour col-2">2PM</div>
         <div class="description col-8">
-          <textarea class="task" id="two"></textarea>
+          <textarea class="task" id="hr14"></textarea>
         </div>
         <div class="col-2">
-          <button class="saveBtn" type="submit" id="2pm">Save</button>
+          <button class="saveBtn" type="submit" name="hr14">Save</button>
         </div>
       </div>
-      <div class="row">
-        <div class="hour col-2">
-          3PM
-        </div>
+      <div class="row" id="hour15">
+        <div class="hour col-2">3PM</div>
         <div class="description col-8">
-          <textarea class="task" id="three"></textarea>
+          <textarea class="task" id="hr15"></textarea>
         </div>
         <div class="col-2">
-          <button class="saveBtn" type="submit" id="3pm">Save</button>
+          <button class="saveBtn" type="submit" name="hr15">Save</button>
         </div>
       </div>
-      <div class="row">
-        <div class="hour col-2">
-          4PM
-        </div>
+      <div class="row" id="hour16">
+        <div class="hour col-2">4PM</div>
         <div class="description col-8">
-          <textarea class="task" id="four"></textarea>
+          <textarea class="task" id="hr16"></textarea>
         </div>
         <div class="col-2">
-          <button class="saveBtn" type="submit" id="4pm">Save</button>
+          <button class="saveBtn" type="submit" name="hr16">Save</button>
         </div>
       </div>
-      <div class="row">
-        <div class="hour col-2">
-          5PM
-        </div>
+      <div class="row" id="hour17">
+        <div class="hour col-2">5PM</div>
         <div class="description col-8">
-          <textarea class="task" id="five"></textarea>
+          <textarea class="task" id="hr17"></textarea>
         </div>
         <div class="col-2">
-          <button class="saveBtn" type="submit" id="5pm">Save</button>
+          <button class="saveBtn" type="submit" name="hr17">Save</button>
         </div>
       </div>
-
-
-
-
-
-
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/js/script.js"></script>
-    
   </body>
+
 </html>
