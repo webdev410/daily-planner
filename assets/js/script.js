@@ -33,25 +33,18 @@ $(document).ready(function () {
             
             if (i === currentTime) {
                 console.log('present');
-                $("#hour" + i).addClass("present");
-                $("#hr" + i).addClass("present");
-                // $(".row").removeClass("past future");
-                
-
+                $("#hour" + i).addClass("time-block present");
+                // $("#hr" + i).addClass("present");
             }
              else if (i < currentTime) {
                 console.log('past');
-                $("#hour" + i).addClass("past");
-                $("#hr" + i).addClass("past");
-                // $(".row").removeClass("present future");
-              
+                $("#hour" + i).addClass("time-block past");
+                // $("#hr" + i).addClass("past");
             }
             else {
                 console.log('future');
-                $("#hour" + i).addClass("future");
-                $("#hr" + i).addClass("future");
-            //    $(".row").removeClass("past present");
-            
+                $("#hour" + i).addClass("time-block future");
+                // $("#hr" + i).addClass("future");
             }
 
             console.log("i: ", i)

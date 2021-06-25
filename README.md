@@ -25,3 +25,4 @@ THEN the saved events persist
 
 
 ## Screenshot
+![](assets/images/screenshot.png)
