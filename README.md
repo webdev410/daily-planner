@@ -1,11 +1,11 @@
-# homework-5 | Third-Party APIs: Work Day Scheduler
+#Work Day Scheduler
 
 ## Objective
 
 To make a work day scheduler where users can enter their tasks and save them in local storage. This will utilize Moment.js as well as jQuery UI.
 
 ## Acceptance Criteria 
-####(copied from homework instructions)
+(copied from homework instructions)
 
 ```md
 GIVEN I am using a daily planner to create a schedule
