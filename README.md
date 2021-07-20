@@ -30,6 +30,8 @@ THEN the saved events persist
 * HTML
 * CSS
 * Javascript
+* MomentJS
+* jQuery UI
 
 ##Developer Contact Info
 webdev410@gmail.com
