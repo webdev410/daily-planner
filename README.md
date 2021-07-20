@@ -23,6 +23,13 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-
 ## Screenshot
 ![](assets/images/screenshot.png)
+
+##Technologies Used
+* HTML
+* CSS
+* Javascript
+
+##Developer Contact Info
+webdev410@gmail.com
